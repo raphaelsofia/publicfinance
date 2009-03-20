@@ -1,0 +1,117 @@
+			/*body{
+		    	background-color:#999999;
+		    }*/
+		    body {
+				background-image:url(../pic/images/i_bg.jpg) ;
+				background-repeat:repeat-x 0px -	190px; 
+				padding-bottom: 20px; 
+				background-repeat:repeat-y 0px -	190px; 
+				font: 75%/150% verdana,宋体; 
+				color: #000;
+				
+			}
+			div#maintitle{
+				background-color:#191970;
+				margin:10px;
+				margin-right:0px;
+				margin-left:0px;
+				margin:0 auto;
+				margin-top:0px;
+				padding:5px;
+				padding:60px;
+				padding-right:30px;
+				padding-left:0px;
+				
+				color: brown;
+				border:solid 2px #555555;
+				left:00px;
+				width:950px;
+			}
+			div#maintitle div.zuobiaoti{
+				float:left;
+			} 
+			div#tupian{
+				margin-left:-5px;
+				padding-left:10px;
+				margin-top:-55px;
+				padding-top:-55px;
+				top:-55px;
+			}
+			div#tupian img{
+				width:110px
+			}
+			div#dabiaoti p{
+				margin-left:80px;
+				margin-top:-25px;
+				font-size:50px;
+				font-weight:bold;
+				color:#FFFFFF;
+			}
+			div#fubiaoti p{
+				font-size:30px;
+				font-style:italic;
+				margin-top:5px;
+				color:#FFFFFF;
+			}
+			div#system{
+				float:right;
+				margin-top:30px;
+				margin-right:-20px;
+			}
+			div#caidan{
+				margin-top:0px;
+			}
+			div#zhukuai{
+				width:990px;
+				margin:0 auto;
+				margin-top:20px;
+			}
+			div.pingpu{
+				float:left;
+			}
+			div.biaofenkuai{
+				float:left;
+			}
+			div#neirong{
+				padding:10px;
+				margin-left:20px;
+				width:800px;
+				background-color:rgb(197,226,242);
+				position:relative;
+			}
+			div#neirongbiaoti{
+				background-image:url(../pic/images/bgtt.gif) ;
+				padding-top:3px;
+			}
+			div.zhuti{
+				
+				height:550px;
+				background-image:url(../pic/images/bg.gif) ;
+			}
+			div#zhubiao{
+				overflow:scroll;
+				height:500px;
+				border:solid 2px blue;
+			}
+			div#fubiao{
+				width:550px;
+				height:500px;
+				overflow:scroll;
+				margin-left:10px;
+				border:solid 2px blue;
+			}
+			select#some_name{
+				
+			}
+			div#end{
+				clear:left;
+				background-image:url(../pic/images/bg_menu.gif) ;
+				padding:20px;
+				position:relative;
+				margin-bottom:-10px;
+				top:15px;
+				width:942px;
+				margin:0 auto;
+				padding-top:5px;
+				padding-bottom:5px;
+			}

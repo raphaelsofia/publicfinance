@@ -1,0 +1,55 @@
+	
+			<div class="pingpu" id="caidan">		
+				<table class="zhuti" style="width: 100%">
+					<tr>
+						<div style="float: left" id="my_menu">
+						      <div>
+						        <span>帐套管理</span>
+							        <a href="ys5-1.html">单位设置</a>
+							        <a href="">用户管理</a>
+							        <a href="">帐套设置</a>
+							        <a href="">科目设置</a>
+							        <a href="ztcx.html">帐套查询</a>
+							       
+						      </div>
+						      <div>
+						        <span>初始化</span>
+									<a href="">初始化科目余额</a>
+							        <a href="">初始化完成确认</a>
+							        
+						      </div>
+						     
+						      <div>
+						        <span>凭证处理</span>
+									<a href="">凭证录入</a>
+							        <a href="">凭证审核</a>
+							        <a href="">查询凭证</a>
+							        <a href="">凭证汇总</a>
+							         <a href="">重排凭证编号</a>
+							         
+							         
+						      </div>
+						      <div>
+						        <span>期末处理</span>
+							        <a href="">记账</a>
+							        <a href="">月结</a>
+							        <a href="">反记账</a>
+							        <a href="">反月结</a>
+							       
+						      </div>
+						      <div>
+						        <span>系统服务</span>
+									<a href="">选择更换单位</a>
+							        <a href="">当前操作信息</a>
+							        <a href="">帮助</a>
+									<a href="">关于</a>
+							        <a href="">退出</a>    
+							        
+						      </div>
+						      <div>
+						        
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>	

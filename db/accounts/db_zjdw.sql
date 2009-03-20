@@ -1,0 +1,13 @@
+CREATE TABLE Zw_dwxx(
+	id INTEGER NOT NULL PRIMARY KEY,
+	dwdm VARCHAR (20) NULL,
+	dwmc VARCHAR (16) NULL,
+	lxdm VARCHAR (20) NULL,
+	zgcs VARCHAR (10) NULL,
+	gzqy TIMESTAMP,
+	zjqy TIMESTAMP
+
+);
+
+CREATE SEQUENCE Zw_dwxxID_seq;
+

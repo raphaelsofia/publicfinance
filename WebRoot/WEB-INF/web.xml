@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+  <welcome-file-list>
+    <welcome-file></welcome-file>
+  </welcome-file-list>
+ <!-- ********************************************************************** -->
+	
+ 	<servlet>
+		<servlet-name>Danweisanlanchaxun</servlet-name>
+		<servlet-class>com.budget.controllers.executeselect.danweisanlan.DisplayInfServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>SelectInfServlet</servlet-name>
+    <servlet-class>com.budget.controllers.executeselect.danweisanlan.SelectInfServlet</servlet-class>
+  </servlet>
+
+	<servlet-mapping>
+		<servlet-name>Danweisanlanchaxun</servlet-name>
+		<url-pattern>/executeselect/danweisanlan/display</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectInfServlet</servlet-name>
+    <url-pattern>/executeselect/danweisanlan/select</url-pattern>
+  </servlet-mapping>
+ <!-- ********************************************************************** -->
+  	<!-- 高斌 -->
+ 	<servlet>
+		<servlet-name>DisplayAccountServlet</servlet-name>
+		<servlet-class>com.accounts.controllers.DisplayAccountServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DisplayAccountServlet</servlet-name>
+		<url-pattern>/servlet/DisplayAccountServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>DisplayCompanyServlet</servlet-name>
+		<servlet-class>com.accounts.controllers.DisplayCompanyServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DisplayCompanyServlet</servlet-name>
+		<url-pattern>/servlet/DisplayCompanyServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CheckDwdmServlet</servlet-name>
+		<servlet-class>com.accounts.controllers.CheckDwdmServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CheckDwdmServlet</servlet-name>
+		<url-pattern>/servlet/CheckDwdmServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CheckDwdmAccountServlet</servlet-name>
+		<servlet-class>com.accounts.controllers.CheckDwdmAccountServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CheckDwdmAccountServlet</servlet-name>
+		<url-pattern>/servlet/CheckDwdmAccountServlet</url-pattern>
+	</servlet-mapping>
+  	<!-- 蔺超 -->
+ 	<servlet>
+		<servlet-name>DisplayAccountServlet</servlet-name>
+		<servlet-class>com.accounts.controllers.DisplayAccountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisplayAccountServlet</servlet-name>
+		<url-pattern>/servlet/DisplayAccountServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AddUnitServlet</servlet-name>
+		<servlet-class>
+			com.account.controllers.danweishezhi.zengjiadanwei.AddUnitServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AddUnitServlet</servlet-name>
+		<url-pattern>/servlet/AddUnitServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+	<servlet-name>DisplayDanWeiInfoServlet</servlet-name>
+		<servlet-class>
+			com.accounts.controllers.danweishezhi.zengjiadanwei.DisplayDanWeiInformationServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DisplayDanWeiInfoServlet</servlet-name>
+		<url-pattern>/servlet/DisplayDanWeiInfoServlet</url-pattern>
+	</servlet-mapping> 
+ <!-- ********************************************************************** -->
+  
+  	<!-- 池清 -->
+	<servlet>
+		<servlet-name>AddServlet</servlet-name>
+		<servlet-class>
+			com.funds.controllers.zijinzhangluru.controllers.AddServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AddServlet</servlet-name>
+		<url-pattern>/servlet/AddServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>ZenJiaServlet</servlet-name>
+		<servlet-class>
+			com.funds.controllers.jibenshezhi.danweiguanli.ZenJiaServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ZenJiaServlet</servlet-name>
+		<url-pattern>/servlet/ZenJiaServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>DisplayDanWeiInformationServlet</servlet-name>
+		<servlet-class>
+			com.funds.controllers.jibenshezhi.danweiguanli.DisplayDanWeiInformationServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DisplayDanWeiInformationServlet</servlet-name>
+		<url-pattern>/servlet/DisplayDanWeiInformationServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>ShuaXinServlet</servlet-name>
+		<servlet-class>
+			com.funds.controllers.jibenshezhi.danweiguanli.zhuguanchushi.ShuaXinServlet
+		</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ShuaXinServlet</servlet-name>
+		<url-pattern>/servlet/ShuaXinServlet</url-pattern>
+	</servlet-mapping>
+
+	
+  	<!-- 王飞 -->
+	<servlet>
+       		<servlet-name>RegisterServlet</servlet-name>
+       		<servlet-class>com.funds.controllers.xitonggongju.controllers.RegisterServlet</servlet-class>
+   	</servlet>
+    
+    	<servlet-mapping>
+        	<servlet-name>RegisterServlet</servlet-name>
+        	<url-pattern>/servlet/RegisterServlet</url-pattern>
+   	</servlet-mapping>
+    
+    	<servlet>
+        	<servlet-name>LoginServlet</servlet-name>
+        	<servlet-class>com.funds.controllers.xitonggongju.controllers.LoginServlet</servlet-class>
+    	</servlet>
+    
+  	<servlet-mapping>
+        	<servlet-name>LoginServlet</servlet-name>
+       		<url-pattern>/servlet/LoginServlet</url-pattern>
+   	</servlet-mapping>
+  
+  
+</web-app>

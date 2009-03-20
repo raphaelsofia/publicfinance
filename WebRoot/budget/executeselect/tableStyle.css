@@ -1,0 +1,16 @@
+div#erbiao #xinxibiao{
+	color:blue;
+}
+.odd{
+	background-color:red;
+}
+tr.putong{
+	background-color:#cef;
+	
+}
+tr#biaoti{
+	background-color:green;
+}
+td{
+	width:110px;
+}
